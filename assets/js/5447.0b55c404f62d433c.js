@@ -1,0 +1,1 @@
+(()=>{"use strict";let e=[],t=async()=>{e.length>0&&(await fetch("/next/api/metrics",{body:JSON.stringify(e),headers:{"Content-Type":"application/json"},credentials:"same-origin",method:"PUT"}),e.splice(0,e.length))},s=s=>{let{type:n,metric:a}=s;if("push"===n&&a){e.push(a);return}"send"===n&&t()};setInterval(t,5e3),self.onmessage=e=>{s(JSON.parse(e.data))}})(),_N_E={};

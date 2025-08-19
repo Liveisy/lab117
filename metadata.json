@@ -1,0 +1,19 @@
+{
+  "url": "https://go.discountdrivers.com/action/13cv1BEE2HkH/13cyDyko6jPu/6?a=m&amp;state=&amp;vid=f9k9bLR0ZtmAwe3EQVQbQ9Eehz&amp;rn=2Ggc5Lb0tfIe",
+  "timestamp": "2025-08-17 15:31:00",
+  "capture_method": "realtime_snapshot_v2",
+  "total_duration": 104.31182312965393,
+  "resources_discovered": 165,
+  "resources_downloaded": 58,
+  "download_total_size": 3785606,
+  "network_requests": 165,
+  "failed_requests": 13,
+  "console_messages": 11,
+  "html_size": 84372,
+  "download_success_rate": 35.15151515151515,
+  "realtime_features": {
+    "path_mappings": 58,
+    "immediate_downloads": 58,
+    "filter_tracking_pixels": true
+  }
+}
